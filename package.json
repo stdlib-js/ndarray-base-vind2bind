@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-vind2bind",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Convert a linear index in an array view to a linear index in an underlying data buffer.",
   "license": "Apache-2.0",
   "author": {
