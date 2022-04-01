@@ -1,0 +1,41 @@
+{
+  "name": "@stdlib/ndarray-base-vind2bind",
+  "version": "0.0.0",
+  "description": "Convert a linear index in an array view to a linear index in an underlying data buffer.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/ndarray-base-vind2bind.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "base",
+    "ndarray",
+    "shape",
+    "strides",
+    "offset",
+    "multidimensional",
+    "array",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "view",
+    "linear",
+    "index",
+    "idx",
+    "strided"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
