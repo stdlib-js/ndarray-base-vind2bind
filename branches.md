@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/vind2bind"
-click B href "https://github.com/stdlib-js/ndarray-base-vind2bind/tree/main"
-click C href "https://github.com/stdlib-js/ndarray-base-vind2bind/tree/production"
-click D href "https://github.com/stdlib-js/ndarray-base-vind2bind/tree/esm"
-click E href "https://github.com/stdlib-js/ndarray-base-vind2bind/tree/deno"
-click F href "https://github.com/stdlib-js/ndarray-base-vind2bind/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/vind2bind"
+%% click B href "https://github.com/stdlib-js/ndarray-base-vind2bind/tree/main"
+%% click C href "https://github.com/stdlib-js/ndarray-base-vind2bind/tree/production"
+%% click D href "https://github.com/stdlib-js/ndarray-base-vind2bind/tree/esm"
+%% click E href "https://github.com/stdlib-js/ndarray-base-vind2bind/tree/deno"
+%% click F href "https://github.com/stdlib-js/ndarray-base-vind2bind/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/vind2bind
