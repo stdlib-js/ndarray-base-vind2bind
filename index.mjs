@@ -1,0 +1,4 @@
+// Copyright (c) 2024 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import e from"https://cdn.jsdelivr.net/gh/stdlib-js/string-format@v0.1.1-esm/index.mjs";function r(r,n,t,a,i,o){var m,s,f,l,d;for(m=r.length,s=1,d=0;d<m;d++)s*=r[d];if("clamp"===o)i<0?i=0:i>=s&&(i=s-1);else if("wrap"===o)i<0?(i+=s)<0&&0!==(i%=s)&&(i+=s):i>=s&&(i-=s)>=s&&(i%=s);else if("normalize"===o&&i<0&&(i+=s),i<0||i>=s)throw new RangeError(e("invalid argument. Linear index must not exceed array dimensions. Number of array elements: `%u`. Value: `%d`.",s,i));if(f=t,"column-major"===a){for(d=0;d<m;d++)i-=l=i%r[d],i/=r[d],f+=l*n[d];return f}for(d=m-1;d>=0;d--)i-=l=i%r[d],i/=r[d],f+=l*n[d];return f}export{r as default};
+//# sourceMappingURL=index.mjs.map
