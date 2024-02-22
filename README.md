@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import vind2bind from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-vind2bind@deno/mod.js';
+import vind2bind from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-vind2bind@v0.2.1-deno/mod.js';
 ```
 
 #### vind2bind( shape, strides, offset, order, idx, mode )
@@ -126,7 +126,7 @@ import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-sh
 import strides2offset from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-strides2offset@deno/mod.js';
 import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import vind2bind from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-vind2bind@deno/mod.js';
+import vind2bind from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-vind2bind@v0.2.1-deno/mod.js';
 
 // Specify array meta data:
 var shape = [ 3, 3, 3 ];
