@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`48d8be1`](https://github.com/stdlib-js/stdlib/commit/48d8be17cb1fb81b2e30a0ce976391fcf622b4c3) - **test:** add tests _(by Athan Reines)_
+-   [`5bb21e7`](https://github.com/stdlib-js/stdlib/commit/5bb21e71dd19df4153a9e4e10640fa74f1fb9a0a) - **test:** add tests for when strides are transposed _(by Athan Reines)_
 -   [`ccb3f8e`](https://github.com/stdlib-js/stdlib/commit/ccb3f8e33a29e6a09074d8bc7e54f0a6fa88a022) - **refactor:** use base assertion utility _(by Athan Reines)_
 -   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
 
