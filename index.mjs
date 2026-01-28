@@ -1,4 +1,0 @@
-// Copyright (c) 2025 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import r from"https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-column-major-string@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@v0.2.2-esm/index.mjs";function s(s,t,o,n,i,m){var f,a,l,d,j;for(f=s.length,a=1,j=0;j<f;j++)a*=s[j];if("clamp"===m)i<0?i=0:i>=a&&(i=a-1);else if("wrap"===m)i<0?(i+=a)<0&&0!==(i%=a)&&(i+=a):i>=a&&(i-=a)>=a&&(i%=a);else if("normalize"===m&&i<0&&(i+=a),i<0||i>=a)throw new RangeError(e("0jf5E",a,i));if(l=o,r(n)){for(j=0;j<f;j++)i-=d=i%s[j],i/=s[j],l+=d*t[j];return l}for(j=f-1;j>=0;j--)i-=d=i%s[j],i/=s[j],l+=d*t[j];return l}export{s as default};
-//# sourceMappingURL=index.mjs.map
