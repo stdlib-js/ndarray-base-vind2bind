@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import vind2bind from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-vind2bind@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-vind2bind/tags). For example,
+
+```javascript
 import vind2bind from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-vind2bind@v0.2.3-esm/index.mjs';
 ```
 
@@ -131,7 +136,7 @@ import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-sh
 import strides2offset from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-strides2offset@esm/index.mjs';
 import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import vind2bind from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-vind2bind@v0.2.3-esm/index.mjs';
+import vind2bind from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-vind2bind@esm/index.mjs';
 
 // Specify array meta data:
 var shape = [ 3, 3, 3 ];
